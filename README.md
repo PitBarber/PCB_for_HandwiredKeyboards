@@ -14,4 +14,4 @@ due to the difficult to make a PCB for them.
 
 # The PCB 
 
-![Front](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg)
+![Front](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg) ![Back](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Back_PCB.jpg)
