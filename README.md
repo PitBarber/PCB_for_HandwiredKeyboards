@@ -51,6 +51,8 @@ This is the wiring in the lefthand keyboard, the righthand will be the same, but
 
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Final_Keyboard.jpg?raw=true"  width=400>
 
+![](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/animations.gif?raw=true)
+
 ### Videos: 
 
 [![Dactyl Manuform with lights](https://img.youtube.com/vi/vpvnzlDXdoU/0.jpg)](https://www.youtube.com/watch?v=vpvnzlDXdoU)
