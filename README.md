@@ -29,4 +29,28 @@ Back face have the 100nF capacitor, necesary for the neopixel, the 1n4148 diode,
 * ROW: Row node.
 
 ### Wiring
+COL wiring:
 
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Keyboard_Wiring.jpg?raw=true" width="500">
+
+ROW wiring:
+
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/keyboard_wiring3.jpg?raw=true" width="500">
+
+This is the wiring in the lefthand keyboard, the righthand will be the same, but mirrored.
+
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Keyboard_Wiring2.jpg?raw=true" width="1000">
+
+* Boards Used: Arduino Pro micro in both cases
+
+### Firmware:
+
+[QMK Firmware](https://github.com/qmk/qmk_firmware) - keyboard firmware based on the tmk_keyboard firmware
+
+### Final Results:
+
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Final_Keyboard.jpg?raw=true"  width=400>
+
+### Videos: 
+
+[![Dactyl Manuform with lights](https://img.youtube.com/vi/vpvnzlDXdoU/0.jpg)](https://www.youtube.com/watch?v=vpvnzlDXdoU)
