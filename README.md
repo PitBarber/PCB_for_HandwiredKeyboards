@@ -1,18 +1,32 @@
 # PCB_for_HandwiredKeyboards
 PCB with a neopixel for handwired keybeoards.
 
-# What will you find in this project?
+## What will you find in this project?
 In this repo you'll find a kicad project which have 15x15mm PCB, that's the exactly size of a mechanical keyboard switch, making you abailable to handwire keyboards with neopixel lights.
 
-Every PCB has a built in neopixel, 100nF capacitor and a 1N4148 for ROW access.
+Every PCB has a built in neopixel (SK6812 2040), 100nF capacitor and a 1N4148 for ROW access*.
 
-# Why?
+_*You can find a BOM in this git with links and quantities_
+
+### Why?
 
 This project provides to handwired keyboards a support to have underglow keycaps.
 PCBs was designed for keyboard with different form factors, for example: dactyl manuform. It's geometry makes makers hard to desing flexible PCBs, and them could be abailable only for some kind of dactyl manuform, which could me customized by user.
 These 15mmx15mm PCBs are near to size of a keyboard Switch, so there can be placed in any custom keyboard, if a switch fits, a PCB will do it so.
 
-# The PCB 
+### The PCB 
 
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg" width="300"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Back_PCB.jpg" width="318"> 
+
+Front face of the PCB only have de builtin SK6812 4020 neopixel, they can be mounted sized or faceup, it's footprint isn't in kicad's official libraries ( a merge will be done).
+
+Back face have the 100nF capacitor, necesary for the neopixel, the 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
+* VCC: 5v high level voltage node.
+* DIN: Data In of the neopixel.
+* DOUT: Data Ou of the neopixel.
+* GND: Ground node.
+* COL: Column node.
+* ROW: Row node.
+
+### Wiring
 
