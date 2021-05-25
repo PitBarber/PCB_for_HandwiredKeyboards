@@ -14,5 +14,5 @@ These 15mmx15mm PCBs are near to size of a keyboard Switch, so there can be plac
 
 # The PCB 
 
-![Front](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg | width = 100) 
+![](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg | width=100) 
 ![Back](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Back_PCB.jpg)
