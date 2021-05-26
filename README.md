@@ -1,6 +1,12 @@
 # PCB_for_HandwiredKeyboards
 PCB with a neopixel for handwired keybeoards.
 
+### About this repo:
+```
+Files you can find here are only the kicad project about the PCB design, 
+3D design or entirye keyboard firmware will be linked in this description.
+```
+
 ## What will you find in this project?
 In this repo you'll find a kicad project which have 15x15mm PCB, that's the exactly size of a mechanical keyboard switch, making you abailable to handwire keyboards with neopixel lights.
 
@@ -55,5 +61,6 @@ This is the wiring in the lefthand keyboard, the righthand will be the same, but
 ![](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/animations.gif?raw=true)
 
 ### Videos: 
+Final resoult + ASMR siwtch video.
 
 [![Dactyl Manuform with lights](https://img.youtube.com/vi/vpvnzlDXdoU/0.jpg)](https://www.youtube.com/watch?v=vpvnzlDXdoU)
