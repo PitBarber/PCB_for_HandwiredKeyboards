@@ -34,6 +34,23 @@ Bottom have the 100nF capacitor, necesary for the neopixel, the 1n4148 diode, fo
 * COL: Column node.
 * ROW: Row node.
 
+### PCB TECHNICAL INFORMATION:
+
+I will show you some technical data about boad sizes and LED SK6812 footprint:
+
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/PCB_size.jpg" width="500"
+
+Here you can see the size of the pcb, distance between pads and pads size.
+
+Now, important information about SK6812 footprint, pads and sizes:
+
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/SK6812_4020_FootPrint.jpg" width="500"
+
+This information is directly collected from official [SK6812 SIDE 4020 datasheet](http://www.normandled.com/upload/201804/SK6812%204020%20SIDE%20LED%20Datasheet.pdf)
+
+Footprint was designed using the FootPrint editing Tool provided by Kicad.
+
+
 ### Wiring
 COL wiring:
 
