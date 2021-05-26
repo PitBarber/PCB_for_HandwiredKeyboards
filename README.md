@@ -1,5 +1,4 @@
-# PCB_for_HandwiredKeyboards
-PCB with a Led neopixel for handwired keyboards.
+# PCB for HandwiredKeyboards
 
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg" width="300"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Back_PCB.jpg" width="318"> 
 
