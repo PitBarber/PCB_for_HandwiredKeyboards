@@ -1,6 +1,12 @@
 # PCB_for_HandwiredKeyboards
 PCB with a neopixel for handwired keybeoards.
 
+### About this repo:
+```
+Files you can find here are only the kicad project about the PCB design, 
+3D design or entirye keyboard firmware will be linked in this description.
+```
+
 ## What will you find in this project?
 In this repo you'll find a kicad project which have 15x15mm PCB, that's the exactly size of a mechanical keyboard switch, making you abailable to handwire keyboards with neopixel lights.
 
@@ -18,9 +24,9 @@ These 15mmx15mm PCBs are near to size of a keyboard Switch, so there can be plac
 
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg" width="300"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Back_PCB.jpg" width="318"> 
 
-Front face of the PCB only have de builtin SK6812 4020 neopixel, they can be mounted sized or faceup, it's footprint isn't in kicad's official libraries ( a merge will be done).
+Top of the PCB only have de builtin SK6812 4020 neopixel, they can be mounted sized or faceup, it's footprint isn't in kicad's official libraries ( a merge will be done).
 
-Back face have the 100nF capacitor, necesary for the neopixel, the 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
+Bottom have the 100nF capacitor, necesary for the neopixel, the 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
 * VCC: 5v high level voltage node.
 * DIN: Data In of the neopixel.
 * DOUT: Data Ou of the neopixel.
@@ -42,6 +48,7 @@ This is the wiring in the lefthand keyboard, the righthand will be the same, but
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Keyboard_Wiring2.jpg?raw=true" width="1000">
 
 * Boards Used: Arduino Pro micro in both cases
+* [Oficial Dactyl Manuform](https://github.com/abstracthat/dactyl-manuform) - More wiring tips
 
 ### Firmware:
 
@@ -51,6 +58,9 @@ This is the wiring in the lefthand keyboard, the righthand will be the same, but
 
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Final_Keyboard.jpg?raw=true"  width=400>
 
+![](https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/animations.gif?raw=true)
+
 ### Videos: 
+Final resoult + ASMR siwtch video.
 
 [![Dactyl Manuform with lights](https://img.youtube.com/vi/vpvnzlDXdoU/0.jpg)](https://www.youtube.com/watch?v=vpvnzlDXdoU)
