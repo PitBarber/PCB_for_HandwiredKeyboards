@@ -25,7 +25,7 @@ These 15mmx15mm PCBs are near to size of a keyboard Switch, so there can be plac
 
 ### The PCB 
 
-<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Front_PCB.jpg" width="300"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Back_PCB.jpg" width="318"> 
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_bottom.jpg?raw=true" width="450"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_top.jpg?raw=true" width="450"> 
 
 Top of the PCB only has the builtin SK6812 4020 neopixel, they can be mounted sized or faceup. Footprint isn't in kicad's official libraries ( a merge will be done).
 
