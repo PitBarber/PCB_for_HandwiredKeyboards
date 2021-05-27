@@ -15,7 +15,12 @@ PCBs was designed for keyboard with different form factors, for example: dactyl 
 These 15mmx15mm PCBs are near to size of a keyboard Switch, so there can be placed in any custom keyboard, if a switch fits, a PCB will do it so, this is suitable for customizable keyboards.
 Every PCB was designed with a LED neopixel, 100nF capacitor and a 1n4148 diode.
 
-[3D design used in this proyect](https://github.com/joseandres42/dactyl-manuform-mini-keyboard)
+[3D design used in this proyect](https://github.com/joseandres42/dactyl-manuform-mini-keyboard) - 5x6 dactyl manuform 3D design por 3D printing
+
+```
+In case you want to use the same design, joseandres42 has a spanish dvorak layout
+for this version of dactyl manuform [right in this forked repo](https://github.com/joseandres42/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform/5x6/keymaps/joseandres42)  
+```
 
 ### The PCB 
 
