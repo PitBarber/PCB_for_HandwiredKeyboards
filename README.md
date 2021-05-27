@@ -26,7 +26,7 @@ for this version of dactyl manuform [right in this forked repo](https://github.c
 
 ### The PCB 
 
-<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_bottom.jpg?raw=true" width="450"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_top.jpg?raw=true" width="450"> 
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_bottom.jpg?raw=true" width="380"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_top.jpg?raw=true" width="380"> 
 
 Handsoldering entire PCB is possible and i did it with the 62 PCBs.
 
