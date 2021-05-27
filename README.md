@@ -5,7 +5,7 @@
 ### About this repo:
 ```
 Files you can find here are only the kicad project about the PCB design, 
-3D design or entirye keyboard firmware will be linked in this description.
+3D design or entire keyboard firmware will be linked in this description.
 ```
 
 ### Why?
