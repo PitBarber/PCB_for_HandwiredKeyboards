@@ -26,7 +26,8 @@ for this version of dactyl manuform [right in this forked repo](https://github.c
 
 <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_bottom.jpg?raw=true" width="450"> <img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Soldering_PCB_top.jpg?raw=true" width="450"> 
 
-E
+Handsoldering entire PCB is possible and i did it with the 62 PCBs.
+
 Top of the PCB only has the builtin SK6812 4020 neopixel, they can be mounted sized or faceup. Footprint isn't in kicad's official libraries ( a merge will be done).
 
 Bottom has a 100nF capacitor, necesary for the neopixe, a 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
