@@ -32,7 +32,7 @@ Handsoldering entire PCB is possible and i did it with the 62 PCBs.
 
 Top of the PCB only has the builtin SK6812 4020 neopixel, they can be mounted sized or faceup. Footprint isn't in kicad's official libraries ( a merge will be done).
 
-Bottom has a 100nF capacitor, necesary for the neopixe, a 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
+Bottom has a 100nF capacitor, necesary for the neopixel, a 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
 * VCC: 3.3-5v high level voltage node.
 * DIN: Data In of the neopixel.
 * DOUT: Data Ou of the neopixel.
@@ -78,7 +78,7 @@ This is the wiring in the lefthand keyboard, the righthand will be the same, but
 
 About the neopixel wiring, every DOUT is connected to de next DIN PCB node.
 
-Be carefull with VCC and GND propagation, dont do it lineal, i mean, you can connect VCC and GND eachother, no maters the order.
+Be carefull with VCC and GND propagation, dont do it lineal, i mean, you can connect VCC and GND eachother, no matters the order.
 But if you only have one connection to VCC at start and VCC propagates linear througt PCB it will experiment a fall of ~0.3V
 that will cause some fliker due to less voltage feeding.
 
@@ -112,6 +112,6 @@ More information at the provided link before.
 
 
 ### Videos: 
-Final resoult + ASMR siwtch video.
+Final result + ASMR siwtch video.
 
 [![Dactyl Manuform with lights](https://img.youtube.com/vi/vpvnzlDXdoU/0.jpg)](https://www.youtube.com/watch?v=vpvnzlDXdoU)
