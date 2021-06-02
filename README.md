@@ -35,7 +35,7 @@ Top of the PCB only has the builtin SK6812 4020 neopixel, they can be mounted si
 Bottom has a 100nF capacitor, necesary for the neopixel, a 1n4148 diode, for ROW to COL wiring ( remember it for the QMK config) and finally, the connection pads:
 * VCC: 3.3-5v high level voltage node.
 * DIN: Data In of the neopixel.
-* DOUT: Data Ou of the neopixel.
+* DOUT: Data Out of the neopixel.
 * GND: Ground node.
 * COL: Column node.
 * ROW: Row node.
