@@ -1,4 +1,4 @@
-# PCB for HandwiredKeyboards
+# PCB for Handwired Keyboards
 
 <img src= "https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/MechanicalKeyboards.jpg?raw=true" width = "1000">
 
