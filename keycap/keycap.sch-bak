@@ -127,20 +127,20 @@ Wire Wire Line
 Wire Wire Line
 	3350 3850 3350 3950
 Wire Wire Line
-	4450 3450 4450 3350
+	4700 3350 4700 3250
 Wire Wire Line
-	4400 3450 4450 3450
+	4650 3350 4700 3350
 Wire Wire Line
-	4400 3900 4400 3750
+	5550 3250 5400 3250
 $Comp
 L Switch:SW_Push_Open SW1
 U 1 1 605DB0B6
-P 4650 3350
-F 0 "SW1" H 4650 3565 50  0000 C CNN
-F 1 "SW_Push_Open" H 4650 3474 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4650 3550 50  0001 C CNN
-F 3 "~" H 4650 3550 50  0001 C CNN
-	1    4650 3350
+P 4900 3250
+F 0 "SW1" H 4900 3465 50  0000 C CNN
+F 1 "SW_Push_Open" H 4900 3374 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4900 3450 50  0001 C CNN
+F 3 "~" H 4900 3450 50  0001 C CNN
+	1    4900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -157,24 +157,24 @@ $EndComp
 $Comp
 L Diode:1N4148 D1
 U 1 1 6059A657
-P 4400 3600
-F 0 "D1" V 4446 3520 50  0000 R CNN
-F 1 "1N4148" V 4355 3520 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4400 3425 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 3600 50  0001 C CNN
-	1    4400 3600
-	0    -1   -1   0   
+P 5250 3250
+F 0 "D1" V 5296 3170 50  0000 R CNN
+F 1 "1N4148" V 5205 3170 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5250 3075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5250 3250 50  0001 C CNN
+	1    5250 3250
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J10
 U 1 1 6062AF6E
-P 4600 3900
-F 0 "J10" H 4628 3880 50  0000 L CNN
-F 1 "Conn_01x01_Female" V 4537 3948 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4600 3900 50  0001 C CNN
-F 3 "~" H 4600 3900 50  0001 C CNN
-	1    4600 3900
-	1    0    0    -1  
+P 5550 3050
+F 0 "J10" H 5578 3030 50  0000 L CNN
+F 1 "Conn_01x01_Female" V 5487 3098 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5550 3050 50  0001 C CNN
+F 3 "~" H 5550 3050 50  0001 C CNN
+	1    5550 3050
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED:SK6812MINI D2
@@ -190,46 +190,46 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J8
 U 1 1 6059A672
-P 5000 3050
-F 0 "J8" V 4892 2962 50  0000 R CNN
-F 1 "Conn_01x01_Female" V 4937 3098 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" V 4847 2962 50  0001 R CNN
-F 3 "~" H 5000 3050 50  0001 C CNN
-	1    5000 3050
-	0    -1   -1   0   
+P 4950 3500
+F 0 "J8" V 4842 3412 50  0000 R CNN
+F 1 "Conn_01x01_Female" V 4887 3548 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" V 4797 3412 50  0001 R CNN
+F 3 "~" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J9
 U 1 1 6059A66C
-P 5000 3650
-F 0 "J9" V 4892 3698 50  0000 L CNN
-F 1 "Conn_01x01_Female" V 4937 3698 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5000 3650 50  0001 C CNN
-F 3 "~" H 5000 3650 50  0001 C CNN
-	1    5000 3650
-	0    1    1    0   
+P 4350 3500
+F 0 "J9" V 4242 3548 50  0000 L CNN
+F 1 "Conn_01x01_Female" V 4287 3548 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4350 3500 50  0001 C CNN
+F 3 "~" H 4350 3500 50  0001 C CNN
+	1    4350 3500
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5000 3250 5000 3350
+	4750 3500 4650 3500
 Wire Wire Line
-	5000 3350 4850 3350
-Connection ~ 5000 3350
+	4650 3500 4650 3350
+Connection ~ 4650 3500
 Wire Wire Line
-	5000 3350 5000 3450
-Text GLabel 5000 3350 2    50   Input ~ 0
-COL
-Connection ~ 4400 3900
+	4650 3500 4550 3500
+Connection ~ 5550 3250
 $Comp
 L Connector:Conn_01x01_Female J7
 U 1 1 6059A666
-P 4200 3900
-F 0 "J7" H 4092 3767 50  0000 C CNN
-F 1 "Conn_01x01_Female" V 4137 3948 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4092 3766 50  0001 C CNN
-F 3 "~" H 4200 3900 50  0001 C CNN
-	1    4200 3900
-	-1   0    0    1   
+P 5550 3450
+F 0 "J7" H 5442 3317 50  0000 C CNN
+F 1 "Conn_01x01_Female" V 5487 3498 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5442 3316 50  0001 C CNN
+F 3 "~" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	0    1    1    0   
 $EndComp
-Text GLabel 4400 3900 3    50   Input ~ 0
+Text Label 5550 3250 0    50   ~ 0
 ROW
+Text Label 4650 3500 3    50   ~ 0
+COL
 $EndSCHEMATC
