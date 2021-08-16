@@ -71,7 +71,7 @@ ROW wiring:
 
 This is the wiring in the lefthand keyboard, the righthand will be the same, but mirrored.
 
-<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/main/images/Keyboard_Wiring2.jpg?raw=true" width="1000">
+<img src="https://github.com/PitBarber/PCB_for_HandwiredKeyboards/blob/develop/images/Keyboard_wiring2.jpg?raw=true" width="1000">
 
 * Boards Used: Arduino Pro micro in both cases
 * [Oficial Dactyl Manuform](https://github.com/abstracthat/dactyl-manuform) - More wiring tips by @abstracthat
